@@ -17,5 +17,9 @@ public class HelloController {
     public String health() {
         return "Application is running successfully!";
     }
+    @GetMapping("/update")
+    public String update() {
+        return "Application is Updating relax----";
+    }
 }
 
