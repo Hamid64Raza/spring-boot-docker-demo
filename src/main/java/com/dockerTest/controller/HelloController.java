@@ -21,5 +21,9 @@ public class HelloController {
     public String update() {
         return "Application is Updating relax----";
     }
+    @GetMapping("/first")
+    public String test(){
+        return "testing";
+    }
 }
 
